@@ -1,0 +1,168 @@
+/*
+*{
+
+     margin:0;
+
+}
+body{
+     font-family: 'Roboto' , sans-serif;
+
+
+}
+#slider{
+     height: 500px;
+     border:1px solid black;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+
+
+}
+.container{
+     width:1600px;
+     margin:auto;
+
+
+
+
+}
+.subcontainer{
+
+     width:85%;
+     margin:auto;
+
+
+}
+
+.silde-img{
+     width:100%;
+     height: 275px;
+     border-radius: 5px;
+     background-position: center;
+     background-size: cover;
+     cursor: pointer;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     transition: 0.5s;
+
+}
+.silde-img:hover{
+
+     box-shadow: 0 0 0 200px rgba(0,0,0,0.9) inset;
+
+}
+.silde-img a{
+     opacity: 0;
+     text-decoration: none;
+     transform: scale(0);
+     transition: 0.8s;
+     font-size: 1.5rem;
+     color: white;
+
+
+}
+.silde-img:hover a{
+     opacity: 1;
+     transform: scale(1);
+
+}
+
+@media(max-width:1600px){
+     .container{
+          width:100%;
+
+     }
+}
+
+*/
+/*
+<div class="slide">
+                                    <div class="slide-img img-6">
+                                        <a href="#">Read More </a>
+                                        <img src="../wp-content/uploads/2015/04/team-member4-263X272.jpg" alt="Bryant Cranford">
+
+                                    </div>
+                                    <br>
+                                    <div>
+                                        <h3>
+                                            Mr. Ramchandra V. Sagar 
+                                        </h3>
+                                        
+
+                                    </div>
+                                   
+
+                                </div>
+
+
+*/
+
+/*
+
+<div class="slide">
+                                    <div class="slide-img img-7">
+                                        <a href="#"> Read More</a>
+                                        <img src="../wp-content/uploads/2015/04/team-member4-263X272.jpg" alt="Bryant Cranford">
+
+                                    </div>
+                                    <br>
+                                    <div>
+                                        <h3>
+                                            Mrs. Maya D. Prabhune
+                                        </h3>
+                                        
+
+                                    </div>
+                                   
+
+                                </div>
+
+
+*/
+
+
+/*
+
+ <div class="slide">
+                                    <div class="slide-img img-8">
+                                        <a href="#"> Read More</a>
+                                        <img src="../wp-content/uploads/2015/04/team-member4-263X272.jpg" alt="Bryant Cranford">
+
+                                    </div>
+                                    <br>
+                                    <div>
+                                        <h3>
+                                            Mrs. Mrudula M. Gore 
+                                        </h3>
+                                        
+
+                                    </div>
+                                   
+
+                                </div>
+
+
+*/
+
+/*
+<div class="slide">
+                                    <div class="slide-img img-9">
+                                        <a href="#"> Read More</a>
+                                        <img src="../wp-content/uploads/2015/04/team-member3-263X272.jpg" alt="John Doe">
+
+                                    </div>
+                                    <br>
+                                    <div>
+                                        <h3>
+                                            Mrs. Sheetal N. Sapkal
+                                        </h3>
+                                        
+
+                                    </div>
+                                   
+
+                                </div>
+
+*/
+
